@@ -16,7 +16,7 @@ void exo2()
 
 void exo3()
 {
-    for ( unsigned i(0); i < 10 ; ++i)
+    for ( unsigned i(1); i <= 10 ; ++i)
     {
         cout << i << '\t' ;
     }
@@ -25,7 +25,7 @@ void exo3()
 
 void exo4()
 {
-    for ( unsigned i(0); i < 200 ; ++i)
+    for ( unsigned i(1); i <= 200 ; ++i)
     {
         cout << i << '\t' ;
         if (i%10 == 0 )
