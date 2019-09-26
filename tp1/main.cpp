@@ -38,6 +38,7 @@ void exo4()
 void exo5()
 {
     unsigned N;
+    cout << "rentrer une valeur pour N" << endl;
     cin >> N ;
     for ( unsigned i(0);  i < N ; ++i)
     {
@@ -120,13 +121,13 @@ void exo7()
 void exo8()
 {
     float a;
-    cout << "RENTRER a" << endl;
+    cout << "rentrer a" << endl;
     cin >> a;
     float b;
-    cout << "RENTRER b" << endl;
+    cout << "rentrer b" << endl;
     cin >> b;
     float c;
-    cout << "RENTRER c" << endl;
+    cout << "rentrer c" << endl;
     cin >> c;
     float delta ((b*b) - (4 * a *c));
     if ( delta > 0 )
@@ -175,18 +176,17 @@ void exo9()
 
 void exo10()
 {
-    unsigned i (99);
-    for (unsigned n(0); n < (98) ; ++n)
+
+    for (unsigned i(99); i > (1) ; --i)
     {
-        cout << i << "bottles of beer on the wall," << i << "bottles of beer. Take one down and pass it around," << i - 1 << "bottles of beer on the wall." << endl << endl;
-        i = i-1;
+        cout << i << " " << "bottles of beer on the wall, " << i << " " << "bottles of beer. Take one down and pass it around, " << i - 1 << " " << "bottles of beer on the wall." << endl << endl;
     }
-    cout << "1 bottles of beer on the wall, 1 bottles of beer." << "Go to the store and buy some more, no more bottles of beer on the wall." << endl << endl;
+    cout << "1 bottles of beer on the wall, 1 bottles of beer. Go to the store and buy some more, no more bottles of beer on the wall." << endl << endl;
     cout << "No more bottles of beer on the wall, no more bottles of beer." << "Go to the store and buy some more, 99 bottles of beer on the wall." << endl;
 
 }
 int main()
 {
-    exo10();
+    exo7();
     return 0;
 }
